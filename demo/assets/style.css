@@ -1,0 +1,48 @@
+body {
+  font-size: 1.3em;
+  background: #f2f2f2;
+  color: #293336;
+}
+
+h1, p {
+  max-width: 620px;
+  padding: 0 10px;
+  margin: 1em auto;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.slides-wrapper {
+  margin: 0 0 2em;
+  background: #e0e0e0;
+}
+
+.slides {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 300px;
+  -webkit-transition: margin-left .3s ease-in-out;
+}
+
+.slides li {
+  float: left;
+}
+
+.slides img {
+  height: 100%;
+}
+
+@media all and (max-width: 960px) {
+  .slides {
+    height: 200px;
+  }
+
+  .slides img {
+    height: 100%;
+  }
+}
